@@ -1,0 +1,23 @@
+// vim: set ft=c
+
+// Esc
+COMB(esc_left,  KC_ESC, KC_TAB, KC_Q)
+COMB(esc_right, KC_ESC, KC_P, KC_MINS)
+
+// IME
+COMB(ime_off, KC_LNG2, KC_X,    KC_C)
+COMB(ime_on,  KC_LNG1, KC_COMM, KC_DOT)
+
+// Home row combos
+COMB(hrc_lctl, HRC_L_CTL, KC_D, KC_F)
+COMB(hrc_lsft, HRC_L_SFT, KC_S, KC_D)
+COMB(hrc_lalt, HRC_L_ALT, KC_S, KC_F)
+COMB(hrc_lgui, HRC_L_GUI, KC_A, KC_F)
+
+COMB(hrc_rctl, HRC_R_CTL, KC_J, KC_K)
+COMB(hrc_rsft, HRC_R_SFT, KC_K, KC_L)
+COMB(hrc_ralt, HRC_R_ALT, KC_J, KC_L)
+COMB(hrc_rgui, HRC_R_GUI, KC_J, KC_SCLN)
+
+COMB(hrc_lsc, HRC_L_SFT_CTL, KC_S, KC_D, KC_F)
+COMB(hrc_rsc, HRC_R_SFT_CTL, KC_J, KC_K, KC_L)
